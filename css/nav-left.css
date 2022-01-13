@@ -1,0 +1,31 @@
+.nav-left-container {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+    margin-left: 3rem;
+    margin-right: 8rem;
+    position: relative;
+}
+
+.nav-left-container a {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    text-decoration: none;
+}
+
+.nav-left-container a:hover {
+    background: transparent;
+}
+
+.nav-left-container-logo-icon-style {
+    text-align: left;
+}
+
+.nav-left-container-logo-icon {
+    position: relative;
+}
+
+.nav-left-container svg path{
+    fill: #ffffff;
+}

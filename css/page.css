@@ -1,0 +1,64 @@
+@import url(./top-offer-container.css);
+@import url(./token-front.css);
+@import url(./token-back.css);
+@import url(./token-animation.css);
+
+.token-page {
+    padding-inline: 3rem;
+    padding-block-start: 1.25rem;
+    padding-block-end: 1.25rem;
+}
+
+.list-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.list-page-tittle {
+    display: flex;
+    justify-content: center;
+    font: var(--title-32bold);
+    font-size: 2rem;
+    background: var(--h1);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.product-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.product-list-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(5, 200px);
+    row-gap: 4rem;
+}
+
+.token {
+    z-index: 1;
+    margin: auto;
+    width: 200px;
+    height: 290px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.face {
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 270px;
+    background-color: var(--token-card);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    position: absolute;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    padding: 10px;
+    transition: 1.5s transform;
+}

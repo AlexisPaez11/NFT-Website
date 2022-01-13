@@ -1,0 +1,11 @@
+.token:hover .face.front {
+    transform: rotateY(180deg);
+}
+
+.token .face.back {
+    transform: rotateY(180deg);
+}
+
+.token:hover .face.back {
+    transform: rotateY(360deg);
+}
