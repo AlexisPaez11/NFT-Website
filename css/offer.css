@@ -33,9 +33,10 @@
     font: var(--title-32bold);
     color: var(--grey1);
 
-    /* white-space: nowrap;
+    inline-size: 20rem;
+    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; */
+    text-overflow: ellipsis;
 }
 
 .token-offer-collection {    
