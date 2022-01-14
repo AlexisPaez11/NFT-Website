@@ -10,7 +10,7 @@ header {
   z-index: 2;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1085px) {
   header {
     background: var(--primary1);
   }

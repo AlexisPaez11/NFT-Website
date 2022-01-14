@@ -45,13 +45,9 @@
     transition: .3s transform;
 }
 
+
 @media (max-width: 1245px) {
-    .nav-right-container a {
-      display: none;
-    }
-}
-@media (max-width: 1050px) {
-    .nav-right-container {
+    .nav-right-buttom {
         display: none;
     }
 }

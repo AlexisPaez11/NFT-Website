@@ -71,7 +71,7 @@ nav ul li a {
     display: none;
   }
     
-  @media (max-width: 1050px) {
+  @media (max-width: 1085px) {
     .checkbtn{
       display: block;
     }
