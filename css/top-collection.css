@@ -12,7 +12,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    justify-content: space-between;
+    gap: 1rem;
     overflow: hidden;
 }
 
@@ -34,35 +35,54 @@
 }
 
 .top-collection-bottom {
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 100px); */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    justify-content: left;
-    gap: 12.5px;
+    gap: .75rem;
+    height: 244px;
+    overflow: hidden;
     /* background: lightcoral; */
+    overflow-y: auto;
+}
+
+.top-collection-bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.top-collection-bottom::-webkit-scrollbar-thumb {
+    inline-size: 1rem;
+    block-size: 4rem;
+    background: none;
+    /* background-color: var(--scroll); */
 }
 
 .top-collection-bottom-collections {
     /* margin: auto; */
-    width: 205px;
+    width: 100%;
     height: 50px;
     display: flex;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
     /* background: royalblue; */
-    gap: 7.5px;
+    gap: .75rem;
+    border-radius: .25rem;
 }
+
+.top-collection-bottom-collections:hover {
+    background-color: var(--scroll);
+}
+
 .top-collection-bottom-collections-cover {
     /* background: seagreen; */
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     margin-block: auto;
 }
+
 .top-collection-bottom-collections-cover img{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
@@ -71,23 +91,40 @@
 .top-collection-bottom-collections-information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: .25rem;
     /* background-color: seagreen; */
 }
 
-.top-collection-bottom-collections-tittle {
+.top-collection-bottom-collections-position {
+    display: flex;
+    align-items: center;
     font: var(--subtitle-22bold);
     font-size: 16px;
+    padding-left: 10px;
+    height: 50px;
+    color: var(--grey);
+}
+
+.top-collection-bottom-collections-tittle {
+    display: flex;
+    align-items: center;
+    font: var(--subtitle-22bold);
+    font-size: 16px;
+    height: 22px;
     color: var(--grey1);
 
-    inline-size: 9.5rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .top-collection-bottom-collections-number {
+    display: flex;
+    align-items: center;
     font: var(--subtitle-22bold);
     font-size: 14px;
+    height: 18px;
     color: var(--grey);
     white-space: nowrap;
     overflow: hidden;

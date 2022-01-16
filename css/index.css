@@ -41,19 +41,15 @@
     --token-offer-cta-border: rgb(33, 34, 37, .9);
   }
   
-  nav ul, .simply-section{
+  nav ul{
     --primary1: #1c1d20;
-  }
-  
-  .list-page-tittle {
-    --grey1: #ffffff;
   }
   
   .token-tittle, .token-tittle-back, .token-information-back, .token-offer-tittle, .token-offer-price-number, .counter .count, .simply-amount, .simply-word , .top-collection-tittle, .top-collection-bottom-collections-tittle {
     --grey1: #efefef;
   }
   
-  ::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb, .top-collection-bottom-collections:hover {
     --scroll: #25272b; 
   }
 }

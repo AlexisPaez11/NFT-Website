@@ -29,3 +29,9 @@
 .nav-left-container svg path{
     fill: #ffffff;
 }
+
+@media (max-width: 550px) { 
+    .nav-left-container {
+        margin-left: 1.5rem;
+    }
+}

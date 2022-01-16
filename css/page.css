@@ -63,6 +63,12 @@
     transition: 1.5s transform;
 }
 
+@media screen and (max-width: 800px) {
+    .product-page-container {
+        gap: 4rem;
+    }
+}
+
 @media (max-width: 500px) { 
     /* .token-page {
         padding-bottom: 100px;
