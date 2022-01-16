@@ -1,0 +1,24 @@
+@import url(./nav-left.css);
+@import url(./nav-center.css);
+@import url(./nav-right.css);
+
+header {
+  position: fixed;
+  height: 4.5rem;
+  width: 100%;
+  height: 72px;
+  z-index: 2;
+}
+
+@media (max-width: 1085px) {
+  header {
+    background: var(--primary1);
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
