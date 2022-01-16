@@ -30,7 +30,7 @@
     fill: #ffffff;
 }
 
-@media (max-width: 550px) { 
+@media (max-width: 500px) { 
     .nav-left-container {
         margin-left: 1.5rem;
     }

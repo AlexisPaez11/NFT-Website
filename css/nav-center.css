@@ -56,7 +56,7 @@ nav ul li a {
   }
 
   .checkbtn{
-    font-size: 22px;
+    font-size: 30px;
     background: var(--h1);
     -webkit-background-clip: text;
     color: transparent; 
@@ -110,3 +110,9 @@ nav ul li a {
       left: 0;
     }
   }
+
+  @media (max-width: 500px) { 
+    .checkbtn{
+      margin-right: 1.5rem;
+    }
+}
