@@ -34,7 +34,9 @@
   --body-15medium: 500 0.9375rem/1.25rem Inter;
   --body-14regular: 500 0.875rem/1.25rem Inter; 
   --body-14regular_u: 400 0.875rem/1.125rem Inter; 
-  --caption-12bold: 700 0.75rem/1rem Inter; 
+  --caption-12bold: 700 0.75rem/1rem Inter;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
 }
 
 @media (prefers-color-scheme: dark) {
