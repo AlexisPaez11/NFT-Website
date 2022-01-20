@@ -6,7 +6,7 @@
 .token-page {
     padding-inline: 3rem;
     padding-block-start: 1.25rem;
-    padding-block-end: 1.25rem;
+    margin-block-end: 6rem;
 }
 
 .list-page-container {
@@ -70,9 +70,9 @@
 }
 
 @media (max-width: 500px) { 
-    /* .token-page {
-        padding-bottom: 100px;
-    } */
+    .token-page {
+        margin-block-end: 12rem;
+    }
     .list-page-container {
         gap: 8rem;
     }
